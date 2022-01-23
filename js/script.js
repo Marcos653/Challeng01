@@ -4,14 +4,8 @@ var botaoCopy = document.querySelector('#btn-copy')
 var botaoPaste = document.querySelector('#btn-paste')
 var texto = document.getElementById('input-texto')
 var textoCript = document.getElementById('msg')
-var texto2 = document.getElementById('input-texto')
-var textoCript2 = document.getElementById('msg')
 let textoEscrito
 let resultado
-let textoEscrito2
-let resultado2
-
-
 
 
 botaoCript.addEventListener('click', function(event){
@@ -26,9 +20,9 @@ botaoCript.addEventListener('click', function(event){
 botaoDescrip.addEventListener("click", function(event){
         event.preventDefault()
     
-        textoEscrito2 = textoCript2.value
-        resultado2 = Uncriptografar(textoEscrito2)
-        textoCript2.value = resultado2
+        textoEscrito = textoCript.value
+        resultado = Uncriptografar(textoEscrito)
+        textoCript.value = resultado
       })
 
 botaoCopy.addEventListener("click", function(event){
