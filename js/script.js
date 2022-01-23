@@ -60,7 +60,7 @@ const criptografar = (str) => {
       .replaceAll("o", "ober")
       .replaceAll("u", "ufat")
     }
-    return "caracteres normais e minusculos voce pode usarao use ascento";
+    return "Por favor use letras minúsculas e sem acentos";
   }
 
 
@@ -73,7 +73,7 @@ const criptografar = (str) => {
       .replaceAll("ober", "o")
       .replaceAll("ufat", "u")
     }
-    return "caracteres normais e minusculos voce pode usar";
+    return "Por favor use letras minúsculas e sem acentos";
   };
 
 
